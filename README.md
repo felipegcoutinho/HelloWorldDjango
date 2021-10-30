@@ -4,7 +4,7 @@ Código produzido como parte do artigo sobre Desenvolvimento Web com Django da P
 [Acesse aqui](https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-introducao) 
 e saiba mais!
 
-## Instalação aaaaaaaaaaaaaaaaa
+## Instalação
 
 Primeiro, recomenda-se a criação de um ambiente virtual. 
 
