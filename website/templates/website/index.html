@@ -11,13 +11,13 @@
     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
       <div class="card">
         <div class="card-body">
-          <h5 class="card-title">Cadastrar Funcionário</h5>
+          <h5 class="card-title">Cadastrar Cartões</h5>
           <p class="card-text">
-            Cadastre aqui um novo <code>Funcionário</code>.
+            Cadastre aqui um novo <code>Cartão</code>.
           </p>
           <a href="{% url 'website:cadastra_funcionario' %}"
              class="btn btn-primary">
-            Novo Funcionário
+            Novo Cartão
           </a>
         </div>
       </div>
@@ -25,9 +25,9 @@
     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
       <div class="card">
         <div class="card-body">
-          <h5 class="card-title">Lista de Funcionários</h5>
+          <h5 class="card-title">Lista de Cartões</h5>
           <p class="card-text">
-            Veja aqui a lista de <code>Funcionários</code> cadastrados.
+            Veja aqui a lista de <code>Cartões</code> cadastrados.
           </p>
           <a href="{% url 'website:lista_funcionarios' %}"
              class="btn btn-primary">
@@ -36,6 +36,37 @@
         </div>
       </div>
     </div>
+
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 mt-2">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Cadastrar Transações</h5>
+          <p class="card-text">
+            Cadastre aqui uma novo <code>Transação</code>.
+          </p>
+          <a href="{% url 'website:cadastra_funcionario' %}"
+             class="btn btn-danger">
+            Nova Transação
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 mt-2">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Lista de Transações</h5>
+          <p class="card-text">
+            Veja aqui a lista de <code>Transações</code> cadastrados.
+          </p>
+          <a href="{% url 'website:lista_funcionarios' %}"
+             class="btn btn-danger">
+            Vá para Lista
+          </a>
+        </div>
+      </div>
+    </div>
+    
   </div>
 </div>
 {% endblock %}
