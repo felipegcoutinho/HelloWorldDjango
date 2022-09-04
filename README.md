@@ -36,13 +36,3 @@ Para executar o servidor de testes do Django, execute:
 ```bash
 python manage.py runserver
 ```
-
-## Fique por dentro
-
-Se gostou do conteúdo, siga a Python Academy no nosso blog e redes sociais!
-
-- [Site](https://pythonacademy.com.br)
-- [Facebook](https://facebook.com.br/pythonacademy/)
-- [Blog](https://pythonacademy.com.br/blog/)
-
-E até a próxima!
